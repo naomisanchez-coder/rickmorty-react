@@ -1,16 +1,34 @@
-# React + Vite
+# Rick & Morty Universe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación SPA desarrollada en React que consume la API pública de Rick and Morty para mostrar personajes del universo de la serie.
 
-Currently, two official plugins are available:
+## Tecnologías usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- React Router DOM
+- Axios
+- Lucide React
+- CSS personalizado con estilo tipo Shadcn
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Ruta Home `/`
+- Ruta Entities `/entities`
+- Navegación entre rutas con React Router
+- Consumo de API pública
+- Listado de personajes
+- Loader de carga
+- Cards con información de personajes
 
-## Expanding the ESLint configuration
+## API utilizada
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://rickandmortyapi.com/api/character
+
+## Pasos para ejecutar el proyecto
+
+```bash
+git clone https://github.com/naomisanchez-coder/rickmorty-react.git
+cd rickmorty-react
+npm install
+npm run dev
